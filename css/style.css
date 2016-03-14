@@ -2,28 +2,146 @@
 .nav
 {
 	padding-left: 500px;
+	background-color:#FF5252;
+
 }
 .container-fluid
 {
-	color: #e03e25 !important;
+	background-color:#FF5252;
+	opacity: 0.8;
 }
-.container
-{
-	margin-top: 70px;
-	
-}
-.subheading
-{
-	font-size:16px;
-	color: #424242;
-}
+
 p
 {
-	text-align: justify;
+	text-align:justify;
+	width: 350px;
+	font-size:18px;
 }
 
 .curly-brace
 {
-	font-size:50px;
+	font-size:30px;
+}
+
+#page1
+{
+	min-height:720px;
+	background-color:#B2EBF2;
+	position: relative;
+	z-index: -1;
+}
+#page2
+{
+	min-height:500px;
+	background-color: #000000;
+	position: relative;
+	z-index: -1;
+	opacity: 0.9;
+}
+#page3
+{	
+	background-color:#FFCDD2;
+	min-height:720px;
+	position: relative;
+	z-index: -1;
+	opacity: 0.6;
+}
+#page4
+{
+	min-height:500px;
+	background-color: #00BCD4;
+	position: relative;
+	z-index: -1;
+}
+#chalkboard
+{
+	display:block;
+    position:absolute;
+    background:url('C:/J.A.R.V.I.S/personal-website/images/chalkboard.jpg');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    width:400px;
+    height:450px;
+    -ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Safari */
+    transform: rotate(-20deg);
+    margin-left: 100px;
+    margin-top: 100px;
+    z-index: 1;
+
+}
+
+#me
+{
+	display:block;
+    position:absolute;
+    background:url('C:/J.A.R.V.I.S/personal-website/images/meFrame.png');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    width:400px;
+    height:450px;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(20deg);
+    margin-left:700px;
+    margin-top: 100px;
+    z-index: 1;
+   
+}
+#board-text
+{
+	font-family:'Courgette', cursive;
+	font-weight: 600;
+	position: absolute;
+	z-index:2;
+	margin-top: 100px;
+	margin-left: 100px;
+	color: #ffffff;
+	-ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Safari */
+    transform: rotate(-20deg);
+}
+.row
+{
+	position: absolute;
+	z-index:2;
+}
+.col-sm-2
+{
+	background:url('C:/J.A.R.V.I.S/personal-website/images/keyboard.png');
+	background-size: 100% 100%;
+	width:100px;
+    height:100px;
+    margin-left: 100px;
+    margin-top: 200px;
+    display:block;
+}
+.jumbotron
+{
+	position: absolute;
 	
+}
+.pro_header
+{
+	position: absolute;
+	font-family: 'Montserrat', sans-serif;
+	color: #000000;	
+	margin-top: 15px;
+	text-shadow: 0px 1px 0px rgba(255,255,255,.5);
+}
+.modal-content
+{
+	width: 400px;
+	height: 300px;
+	text-align: justify;
+	box-shadow: inset 0px 0px 15px rgba(0,0,0,0.9);
+	border:10px solid black;'
+}
+.table	
+{
+	width: 1000px;
+	margin-top:100px; 
+	margin-left:150px; 
+   position: absolute;
+   border: 0px !important;
 }
