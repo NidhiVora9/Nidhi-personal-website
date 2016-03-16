@@ -57,7 +57,7 @@ p
 {
 	display:block;
     position:absolute;
-    background:url('C:/J.A.R.V.I.S/personal-website/images/chalkboard.jpg');
+    background:url('../images/chalkboard.jpg');
     background-repeat:no-repeat;
     background-size: 100% 100%;
     width:400px;
@@ -75,7 +75,7 @@ p
 {
 	display:block;
     position:absolute;
-    background:url('C:/J.A.R.V.I.S/personal-website/images/meFrame.png');
+    background:url('../images/meFrame.png');
     background-repeat:no-repeat;
     background-size: 100% 100%;
     width:400px;
@@ -108,7 +108,7 @@ p
 }
 .col-sm-2
 {
-	background:url('C:/J.A.R.V.I.S/personal-website/images/keyboard.png');
+	background:url('../images/keyboard.png');
 	background-size: 100% 100%;
 	width:100px;
     height:100px;
