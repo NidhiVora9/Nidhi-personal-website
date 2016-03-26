@@ -128,7 +128,7 @@
 .jumbotron
 {
 	position: absolute;
-
+	margin-left:25%;
 }
 #page4
 {
@@ -137,4 +137,9 @@
 	position: relative;
 	z-index: -1;
 	display: block;
+}
+#contactDiv
+{
+	width: 100%;
+	
 }
